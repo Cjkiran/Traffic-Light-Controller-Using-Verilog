@@ -20,13 +20,36 @@ Traffic control is a challenging problem in many cities. This is due to the larg
    require a real time operation. FPGA is a re-configurable integrated circuit that consists of two dimensional arrays of logic blocks and flip-flops with an electrically programmable 
    interconnection between logic blocks. The reconfiguration property enables fast prototyping and updates for hardware devices even after market launch. Most of the TLCs implemented on FPGA        are simple ones that have been implemented as examples of Finite State Machine (FSM).
 
-  The Verilog language has been selected for programming the FPGA to fill two important needs in the design process.
-  Firstly, it gives full description of the structure of a design that is how it is decomposed into sub-designs, and how those sub-designs are interconnected.
-  Secondly, it allows simulating the design before starting the manufacturing.
-  Accordingly, the designers can quickly compare alternatives and test for correctness without the delay and expense of hardware prototyping.
-  Benefits of Using Verilog HDL (Hardware Description Language) :
-  Verilog is a widely used Hardware Description Language (HDL) for designing digital circuits. It can also be used for modeling analog circuits. Verilog is a descriptive language that describes 
- relationship between signals in a circuit.
+   The Verilog language has been selected for programming the FPGA to fill two important needs in the design process.
+   Firstly, it gives full description of the structure of a design that is how it is decomposed into sub-designs, and how those sub-designs are interconnected.
+   Secondly, it allows simulating the design before starting the manufacturing.
+   Accordingly, the designers can quickly compare alternatives and test for correctness without the delay and expense of hardware prototyping.
+   Benefits of Using Verilog HDL (Hardware Description Language) :
+   Verilog is a widely used Hardware Description Language (HDL) for designing digital circuits. It can also be used for modeling analog circuits. Verilog is a descriptive language that describes 
+   relationship between signals in a circuit.
+ 
+  # Advantages using Verilog HDL are shown below :
+  *  Easy to write.
+  *  Easy to understand as it similar to C program.
+  *  Easier to learn compared with VHDL.
+  #  Methodology
+    Ideal statement
+  
+    <img width="329" alt="Screenshot 2024-02-20 225656" src="https://github.com/Cjkiran/Traffic-Light-Controller-Using-Verilog/assets/123364901/b6a4acc1-9c1d-48c3-9bd9-3716b0c101f8">
+    
+    Ideal direction
+  
+    ![Methodology](https://github.com/Cjkiran/Traffic-Light-Controller-Using-Verilog/assets/123364901/310f1592-b970-4560-af9a-92ab97250265)
+
+  * Green light indicates that there is no traffic and there is easy flow of vehicles in that route/direction.
+  * Red light indicates that there is a traffic jam and that route is blocked for the vehicles to move and,
+  * Yellow light indicates that the route has medium flow of vehicles.
+
+
+  
+
+  
+
  
 
 
